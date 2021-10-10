@@ -22,7 +22,7 @@ module.exports = {
             filename: 'index.html',
             inject: true,
             inlineSource: '.css$',
-            //template: path.resolve(__dirname, 'src/html/index.html'),
+            template: path.resolve(__dirname, 'src/templates/index.html.ejs'),
             title: 'Nammy'
         }),
     ]
